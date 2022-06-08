@@ -17,7 +17,7 @@ import os
     filters.incoming & filters.command("ace", prefixes=prefixes)
 )
 async def forward(bot: ace , m: Message):
-    msg = await bot.ask(m.chat.id, "**Forward any message from the Target channel**")
+    msg = await bot.ask(m.chat.id, "**Forward any message from the Target channel\nBot should be admin at both the Channels**")
     t_chat = msg.forward_from_chat.id
     msg1 = await bot.ask(m.chat.id, "**Send Starting Message From Where you want to Start forwarding**")
     msg2 = await bot.ask(m.chat.id, "**Send Ending Message from same chat**")
