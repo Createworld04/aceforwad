@@ -1,5 +1,5 @@
 # ACE-AUTO-FORWARD
-This is Channel Auto Forward Bot. Fork and leave a Star.
+This is Telegram Channel Auto Forward Bot. Fork and leave a Star.
 ----------------------
 ## Deploy To Heroku
 
