@@ -16,7 +16,6 @@
 
 - Get the Bot Father Token from [@BotFather](https://telegram.dog/botfather)
 
-- Paste the token below TG_BOT_TOKEN.
 
 
 
