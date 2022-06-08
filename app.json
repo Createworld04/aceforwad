@@ -1,0 +1,30 @@
+
+{
+    "name": "ACE-AUTO_FORWARDER",
+    "description": "AUTOFORWARD",
+    "repository": "https://github.com/",
+    "keywords": [
+        "telegram bot",
+        "pyrogram"
+    ],
+    "env": {
+
+        "OWNER": {
+            "description": "Your Telegram ID",
+            "required": "True"
+        },
+        "BOT_TOKEN": {
+            "description": "Get From @BotFather in Telegram",
+            "required": "True"
+        },
+        "API_ID": {
+            "description": "Your API ID From my.telegram.org",
+            "required": "True"
+        },
+        "API_HASH": {
+            "description": "Your API Hash From my.telegram.org",
+            "required": "True"
+        }
+    }
+
+}
