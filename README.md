@@ -27,8 +27,9 @@
 ### AVAILABLE COMMANDS 
 ```
 start - check whether bot is alive 
-
+ace - to forward
 help - to know about me
+restart - to restart the bot
 ```
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
