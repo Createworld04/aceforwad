@@ -54,5 +54,5 @@ async def restart_handler(_, m):
     filters.chat(AUTH_USERS) & filters.private &
     filters.incoming & filters.command("log", prefixes=prefixes)
 )
-async def help_msg(bot: ace , m: Message):   
+async def log_msg(bot: ace , m: Message):   
     await bot.send_document(m.chat.id, "log.txt")
